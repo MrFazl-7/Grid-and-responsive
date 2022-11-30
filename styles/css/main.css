@@ -1,10 +1,10 @@
 .container {
   width: 420px;
   height: 100vh;
-  margin: 0 auto;
+  margin: 0;
   display: grid;
   grid-template-columns: 500px;
-  grid-template-rows: 40px 40px 110px 110px 90px 90px 90px;
+  grid-template-rows: 50px 50px 150px 150px 100px 100px 100px;
   grid-template-areas: "a a a a " "b b b b" "c c c c" "d d d d " "e e e e" "f f f f" "g g g g";
 }
 
