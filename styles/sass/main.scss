@@ -1,5 +1,6 @@
 .container {
-    width: 500px;
+    width: 420px;
+    height: 100vh;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 500px;
@@ -51,7 +52,7 @@
                 grid-area: g;
 }
 
-@media (min-width: 300px) {
+@media (min-width: 420px) {
     .container {
         width: 900px;
         margin: 0 auto;
